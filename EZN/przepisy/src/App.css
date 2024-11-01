@@ -1,0 +1,67 @@
+/* App.css */
+
+.App {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+body {
+  background-color: #333;
+  color: white;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+.recipe-item {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #000000;
+  background-color: #1b1b1b;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 1000px;
+  overflow-wrap: break-word;
+}
+
+.add-recipe-name,.search-recipes ,.ingredients, .add-button{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin: 20px 0 20px 0;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.add-button {
+  height: 60px;
+}
+
+.search-recipes{
+  height: 60px;
+  font-size: 20px;
+}
+
+.add-recipe-name{
+  height: 60px;
+}
+
+.ingredients {
+  height: 150px;
+}
+
+input, textarea {
+  background-color: #1b1b1b;
+  color: white;
+  border: 0;
+}
+
+textarea {
+  margin-top: 20px;
+}
